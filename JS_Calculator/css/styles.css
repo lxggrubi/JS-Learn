@@ -1,0 +1,173 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#calcSection {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  height: 100%;
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+#title {
+  background: #00778b;
+  color: white;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+form input[type="text"] {
+  width=90px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#amount {
+  font-size: 14px;
+  /*color: #2980b9;*/
+  color: #red;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#amount:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#numOfPeople {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: #red;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+.dollarSign {
+  display: inline;
+}
+
+#quality {
+  padding: 13px 13px 20px 20px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #dc8c00;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  background: #BB7802;
+  border-bottom-color: #A06702;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#tipAmt {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#tipAmt:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#tipAmt sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#tipAmt small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+#landing {
+  height: 100%;
+}
+
+.landingTitle {
+  font-weight: normal;
+  font-size: 300%;
+  color: white;
+  text-align: right;
+  margin-right: 2em;
+}
+
+#titleDiv {
+  margin-top: 200px;
+}
+
+#linkToCalc {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  text-align: right;
+  margin-left: 47%;
+  margin-right: 40%;
+  margin-top: 0;
+  font-size: 300%;
+}
+
+p a {
+  color: #8caa2d;
+  text-align: center;
+  text-decoration: none;
+}
+
+#linkToCalc:hover {
+  background-color:
+}

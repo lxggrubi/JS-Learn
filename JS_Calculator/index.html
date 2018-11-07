@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Tip Calculator</title>
+  <meta name="description" content="JS Calculator">
+  <meta name="author" content="LG">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+  <section id="landing">
+    <div id="titleDiv">
+      <h1 class="landingTitle"> Write amount.</h1>
+      <h1 class="landingTitle"> Select quality.</h1>
+      <h1 class="landingTitle"> Split it.</h1>
+      <h1 class="landingTitle"> Pay.</h1>
+      <p id="linkToCalc"><a href="#calcSection"><i class="fas fa-arrow-down"></i></a></p>
+    </div>
+  </section>
+
+<section id="calcSection">
+  <div id="container">
+    <h1 id="title">Tip Calculator</h1>
+    <div id="calculator">
+      <form>
+        <p>How much was your bill?
+          <p>
+            $ <input id="amount" type="text" placeholder="Bill Amount">
+            <p>How was your service?
+              <p>
+                <select id="quality">
+                  <option disabled selected value="0">-- Choose an Option --</option>
+                  <option value="0.3">30% Outstanding</option>
+                  <option value="0.2">20% Good</option>
+                  <option value="0.15">15% It was OK</option>
+                  <option value="0.1">10% Bad</option>
+                  <option value="0.05">5% Terrible</option>
+                </select>
+      </form>
+      <p>How many people are sharing the bill?</p>
+      <input id="numOfPeople" type="text" placeholder="Number of People"> people
+      <button type="button" id="calculate">Calculate</button>
+    </div>
+    <div id="tipAmt">
+      <sup>$</sup><span id="tip">0.00</span>
+      <small id="each">each</small>
+    </div>
+  </div>
+</section>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>
